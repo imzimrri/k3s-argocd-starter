@@ -5,8 +5,8 @@ metadata:
   namespace: gateway
 spec:
   dnsNames:
-    - "*.vanillax.xyz"
-    - vanillax.xyz
+    - "*.zimrri.com"
+    - zimrri.com
   issuerRef:
     group: cert-manager.io
     kind: ClusterIssuer
