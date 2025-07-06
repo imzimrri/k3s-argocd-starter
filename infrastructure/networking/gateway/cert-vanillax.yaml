@@ -1,7 +1,7 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: cert-vanillax
+  name: cert-zimrri
   namespace: gateway
 spec:
   dnsNames:
@@ -11,7 +11,7 @@ spec:
     group: cert-manager.io
     kind: ClusterIssuer
     name: cloudflare-cluster-issuer
-  secretName: cert-vanillax
+  secretName: cert-zimrri
   usages:
     - digital signature
     - key encipherment
