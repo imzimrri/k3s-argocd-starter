@@ -22,7 +22,7 @@ spec:
       hostname: "*.zimrri.com"
       tls:
         certificateRefs:
-          - name: cert-vanillax
+          - name: cert-zimrri
             kind: Secret
             group: "" # required
       allowedRoutes:
